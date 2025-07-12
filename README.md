@@ -1,137 +1,40 @@
-# HTML
+# NLW Agents 🤖
 
-- HyperText
-  - Textos puros, livros, revistas, jornais
-  - Links: acessar outros documentos
-  - Imagens, videos, audios
-- Markup:
-  - Marcações
-  - Tags: <a> Link </a>
-  - Atributos:
-  - Globais: id, class, ...
-- Language
-  - Linguagem
-  - Sintaxe: maneira de escrever
+<p align="center">
+  Projeto desenvolvido durante a trilha "Iniciante" do evento Next Level Week (NLW) Agents, promovido pela Rocketseat.</p>
 
-# HTTP
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a53f4f44-4e83-4d52-8041-d3b0fbe33343" alt="Demonstração do projeto" width="100%"></p>
 
-- HyperText
-- Transfer
-  - Transferência
-- Protocol
-  - Conjunto de regras
-- Methods HTTP (verbos): Get, Post, Patch/Put, Delete
-(Pedindo uma informação, Envie uma informação, Ajuste uma informação/Arrume muitas informações, Delete uma informação)
-- Headers (cabeçalhos): Instruções/Informações extras para cada chamada
+## 💻 Sobre o projeto
 
-# URL
+O **NLW Agents** é uma aplicação web que utiliza uma **interface simples e intuitiva** para interação com uma **Inteligência Artificial**, permitindo ao usuário solicitar **dicas, builds e estratégias para jogos** a partir de um prompt personalizado.
 
-- Uniform
-  - Uniforme
-- Resource
-  - Recurso
-- Locator
-  - Localizador
-Encontrar um recurso (html, css, js, pdf, png, jpg, mp4, mp3 ...)
-Endereço
+Foi desenvolvido com foco em iniciantes e tem como objetivo aplicar conceitos de **HTML, CSS, JavaScript** e integração com **LLMs (como Gemini)** para construir aplicações modernas e interativas.
 
-# IP
+---
 
-- Internet
-  - Rede mundial de computadores
-- Protocol
-  - Conjunto de regras
-Endereço do computador
-rocketseat.com.br (domínio)
-123.32.1.23 (ip)
+## 🚀 Tecnologias e Conceitos
 
-# DNS
+- HTML, CSS e JavaScript
+- Manipulação do DOM
+- API do Gemini (IA)
+- Estruturação de Prompts (Prompt Engineering)
+- Conceitos fundamentais da web: HTTP, URL, DNS, JSON
+- Pensamento computacional: Algoritmos, lógica e tipos de dados
 
-- Domain
-  - Domínio
-- Name
-  - Nome
-- Server
-  - Servidor
+---
 
-# CSS
+## 📁 Organização do projeto
 
-- Cascading
-  - Cascata
-  - Regras das escritas
-  - Hierarquia
-  - Especificidade
-- Style
-  - Estilo
-- Sheet
-  - Folha
-De um arquivo que terá na sua sintaxe, declarações, propriedades e valores.
-A partir disso, o HTML é impactado visualmente.
+- `index.html` – estrutura da interface
+- `style.css` – estilização da aplicação
+- `script.js` – lógica da interação com a API e a IA
 
-- declaração
-- seletor
-- propriedade e valor
+---
 
-# JS
+## 📫 Contato
 
-- Linguagem de programação
-- Browsers
-- Input -> Process -> Output
-- Variáveis
-- Function
-  - Agrupamento e reuso de código
-  - Sequencia logica
-  - Saída
-- Gemini (IA): esperar uma resposta
-- Mexer no meu navegador
-- Estrutura de dados
-- Estrutura de decisão
-- Algoritmo: sequencia de passos, de maneira ordenada, a fim de chegar a alguma conclusão (limitada)
-- Lógica (Pensamento computacional)
-  - Abstração
-  - Decomposição
-  - Algoritmo
-  - Reconhecimento de padrão
-- Tipos de dados
-  - Number (números)
-  - String (textos) (" ", ' ', ` `)
-  - Boolean: true | false
-  - Objects
-  - ...
+- [LinkedIn](https://www.linkedin.com/in/maria-vitoria-paes/)
 
-# Dom
 
-- Document
-- Object
-- Model
-
-# API
-
-- Application
-- Programming
-- Interface
-- JSON: JavaScript Object Notation
-
-# CDN
-
-- Content
-- Delivery
-- Network
-
-# LLM
-
-- Large
-- Language
-- Model
-- Gemini, OpenAI (chatGPT), Anthropic (Claude) ...
-
-# Agentes AI
-
-- Tools (ferramentas): permitem uso de código, ou apps, ou qualquer informação extra.
-- Melhor contexto
-
-# Engenharia de prompt
-
-- One shot: uma única pergunta sem muito contexto
-- Few shot: é apresentado exemplos do que se espera
-- Chain of Thought: Cadeia de pensamento para a IA responder gradativamente conforme a instrução.
